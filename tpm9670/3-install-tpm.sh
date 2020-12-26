@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Install tpm-tss..."
-git clone https://github.com/tpm2-software/tpm2-tss.git
+git clone git@github.com:tpm2-software/tpm2-tss.git
 
 cd tpm2-tss
 ./bootstrap
@@ -12,7 +12,7 @@ cd ..
 
 
 echo "Install tpm-tool..."
-git clone https://github.com/tpm2-software/tpm2-tools
+git clone git@github.com:tpm2-software/tpm2-tools.git
 
 cd tpm2-tools
 ./bootstrap
